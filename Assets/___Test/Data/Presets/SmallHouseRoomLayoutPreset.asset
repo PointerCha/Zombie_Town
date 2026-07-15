@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9dbe4f0c58d4d4e9b93b92b62b4f002, type: 3}
+  m_Name: SmallHouseRoomLayoutPreset
+  m_EditorClassIdentifier: 
+  layoutStrategy: 1
+  placementAttemptsPerRoom: 48
+  stairClearanceFromRooms: 0
+  entranceClearanceFromRooms: 6
+  minRoomsPerFloor: 1
+  maxRoomsPerFloor: 2
+  minRoomSize: {x: 8, y: 6}
+  maxRoomSize: {x: 14, y: 12}
+  roomPaddingFromOuterWall: 2
+  minimumRoomGap: 1

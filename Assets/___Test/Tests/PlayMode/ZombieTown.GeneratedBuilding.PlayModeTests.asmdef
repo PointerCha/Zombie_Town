@@ -1,0 +1,19 @@
+{
+  "name": "ZombieTown.GeneratedBuilding.PlayModeTests",
+  "rootNamespace": "ZombieTown.GeneratedBuilding.PlayModeTests",
+  "references": [
+    "ZombieTown.GeneratedBuilding"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

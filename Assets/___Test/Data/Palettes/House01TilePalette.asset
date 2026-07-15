@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6b47561fe9471b9da4982bb7e6f35a, type: 3}
+  m_Name: House01TilePalette
+  m_EditorClassIdentifier: 
+  paletteId: house_01_palette
+  displayName: House 01 Tile Palette
+  groundTile: {fileID: 11400000, guid: cbb2e13375c30e94aa1a9f576c682a95, type: 2}
+  ceilingTile: {fileID: 11400000, guid: cbb2e13375c30e94aa1a9f576c682a95, type: 2}
+  ceilingCellOffset: {x: 3, y: 3}
+  collisionTile: {fileID: 11400000, guid: fb425382f780efe4f8ed6bca1d91a553, type: 2}
+  outerWallPrimary:
+    north: {fileID: 11400000, guid: 3c26390f6e7596c4da25e064c4b8f346, type: 2}
+    south: {fileID: 11400000, guid: 4ebf77eac82c88b498e5bbd9a5041747, type: 2}
+    east: {fileID: 11400000, guid: 58adc54a7768d2043af0913c388a8444, type: 2}
+    west: {fileID: 11400000, guid: 1e1c1661969eba7468dbc8272edfb7dc, type: 2}
+  outerWallSecondary:
+    north: {fileID: 11400000, guid: 6c5cebc8ed6cc1740a464d3b6b8eab96, type: 2}
+    south: {fileID: 11400000, guid: bca328d731fdcf142892397c652fd006, type: 2}
+    east: {fileID: 11400000, guid: d0bcb94ee058b97478fdeaeb953d71d0, type: 2}
+    west: {fileID: 11400000, guid: 0cf1f6d43a6ba3748b97918270d6245f, type: 2}
+  roomWallPrimary:
+    north: {fileID: 11400000, guid: af2308f32d1c18d4da54ed2e46428ee5, type: 2}
+    south: {fileID: 11400000, guid: d8986182bcfbf4a4f9d73258ae407ec9, type: 2}
+    east: {fileID: 11400000, guid: f52923344e192b340853f4c0a24b083c, type: 2}
+    west: {fileID: 11400000, guid: c8538db97e6365f4196b48476c57f4d8, type: 2}
+  roomWallSecondary:
+    north: {fileID: 11400000, guid: 7f2de7a492102004199c752c4c903799, type: 2}
+    south: {fileID: 11400000, guid: 3ab928767aea5404fb9b6f4e76873d07, type: 2}
+    east: {fileID: 11400000, guid: c1fd8e25e1dfa384189606684bb6ecfa, type: 2}
+    west: {fileID: 11400000, guid: cdf1df227221ced4e9f459fcd06dad84, type: 2}
+  doorTiles:
+    north: {fileID: 11400000, guid: df9b7a3fb4484694e9b38fad5c4ea52d, type: 2}
+    south: {fileID: 11400000, guid: a046c4f4a1459814ca45ce813d254b34, type: 2}
+    east: {fileID: 11400000, guid: 29ee1f749b74bc84d9108db24d7dd1d0, type: 2}
+    west: {fileID: 11400000, guid: 36b4ac427dc47ed47a116830221de61d, type: 2}
+  stairVisualTile: {fileID: 11400000, guid: dcbb312676f6bb14c9f21efb4fb14e96, type: 2}
+  defaultPropTile: {fileID: 11400000, guid: 136eab08de44969408472cf4f2830ab5, type: 2}
